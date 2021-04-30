@@ -1,4 +1,4 @@
-Case study for Krieger Digital for Hoeffner Website Test Cucumber based Selenium Automation Framework
+Case study for Krieger Digital for Hoeffner Website Test using Cucumber based Selenium Automation Framework
 
 This is a sample Registration feature test case scenarios to verify whether user is able to register with the provided Email.
 
@@ -10,7 +10,6 @@ Steps to Execute
 JAVA Sdk, Apache Maven, Selenium Webdriver (chromedriver). Currently the script supports Chrome browser only but we have provided support for Firefox as well which can be used for execution with minor changes.
 
 # Open "config.properties" file and do the following changes -- 
-(i) Select the desired browser (Chrome) for execution. 
-(ii) Update the mail  id in the feature file, if the given mails are already registered. 
-(iii) Save the changes and execute the script through either IDE or Cmd. IDE -- Execute as JUnit Test. Cmd -- Move to the root directory and run the command "mvn test".
+(i) Update the mail id in the feature file, if the given mails are already registered. 
+(ii) Save the changes and execute the script through either IDE or Cmd. IDE -- Execute as JUnit Test. Cmd -- Move to the root directory and run the command "mvn test".
 
