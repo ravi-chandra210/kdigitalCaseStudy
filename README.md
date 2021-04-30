@@ -6,10 +6,11 @@ The test scripts are written based on Selenium and Java Frontend Automation Suit
 
 Steps to Execute
 
-Clone master branch from GIT Repository. Clone the project from GIT to local machine with below dependencies -- JAVA Sdk, Apache Maven, Selenium Webdriver (chromedriver). Currently the script supports Chrome browser only.
+# Clone master branch from GIT Repository to local machine with below dependencies:
+JAVA Sdk, Apache Maven, Selenium Webdriver (chromedriver). Currently the script supports Chrome browser only but we have provided support for Firefox as well which can be used for execution with minor changes.
 
-Open "config.properties" file and do the following changes -- 
+# Open "config.properties" file and do the following changes -- 
 (i) Select the desired browser (Chrome) for execution. 
-(ii) Update the mailid in the feature file, if the given mails are already registered. 
+(ii) Update the mail  id in the feature file, if the given mails are already registered. 
 (iii) Save the changes and execute the script through either IDE or Cmd. IDE -- Execute as JUnit Test. Cmd -- Move to the root directory and run the command "mvn test".
 
